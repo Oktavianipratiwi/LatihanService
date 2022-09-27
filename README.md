@@ -21,7 +21,7 @@
 
 **Langkah 2 :**
 <br> Buka proyek di IDE Anda dan cari **DemoApplication.javafile** di **src/main/java/com/example/demofolder**. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
-<br>![image](https://user-images.githubusercontent.com/113502499/192421309-a58ee914-e49b-4795-81f0-0560181f0794.png)
+<br>![image](https://user-images.githubusercontent.com/113502499/192433891-6c7315e4-75a4-4eee-9c33-755efc3ab5af.png)
 
 <br>Metode hello() yang kami tambahkan dirancang untuk mengambil parameter String yang disebut name, dan kemudian menggabungkan parameter ini dengan kata **"Hello"** dalam kode. Ini berarti bahwa jika Anda menyetel nama Anda ke **“Oktaviani”** dalam permintaan, responsnya adalah **“Hello Oktaviani”**.
 <br>Anotasi **@RestController** memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. Memberi **@GetMapping(“/hello”)** tahu Spring untuk menggunakan hello() metode kami untuk menjawab permintaan yang dikirim ke **http://localhost:8080/helloalamat**. Akhirnya, **@RequestParamSpring** memberi tahu Spring untuk mengharapkan name nilai dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
